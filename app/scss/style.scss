@@ -1,14 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap');
+@import "C:/Users/38068/pm_22_09/node_modules/bootstrap/scss/bootstrap";
+.block{
+  max-width: 100%;
+}
 
 
 .bg{
   background-color: #ebebeb;
+  min-height: 100%;
   padding: 40px;
 }
 .YelBG{
-  background-color: #f7d44c;
-  padding-top: 60px;
-  padding-bottom: 30px;
+  background-color: #FFC905;
+  min-height: 100%;
+  padding-top: 5vw;
+  padding-bottom: 2.5vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,24 +22,162 @@
 }
 .Pic{
   img {
-    max-width: 100%;
+    min-width: 100%;
     height: auto;
     display: block;
-
-
   }
+}
+.Hobby{
+  padding-bottom: 5vw;
+}
+.Artic{
+  font-family: "Oswald", system-ui;
+
+}
+
+.Exp {
+  padding-top:40px;
+}
+
+.Icons {
+  font-size: 1.5rem;
+  border: 2px solid #333;
+  border-radius: 50%;
+  padding: 10px;
+
+}
+
+
+.yellow-line {
+  width: 60px;
+  border-top: 4px solid #FFC905;
+  opacity: 1;
+
+}
+
+.Text {
+  font-family: "Poppins", sans-serif;
+}
+.Data{
+  font-family: "Roboto", sans-serif;
+}
+.Bowl {
+  background-color: #FFC905;
+  color: ghostwhite;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0 10px;
+  border-radius: 5px;
+
+}
+
+
+
+
+
+
+.text-black {
+  color: #000000;
+}
+
+.text-dark-gray {
+  color: #555555;
+}
+
+.text-light-gray {
+  color: #777777;
+}
+
+
+
+.circle {
+  fill: none;
+  stroke-width: 18px;
+  stroke-linecap: round;
+  stroke-dashoffset: 0;
+  transform-origin: 100px 100px;
+}
+
+
+.first-circle {
+  stroke: #FFC905;
+  transform: rotate(74.2deg);
+}
+
+.second-circle {
+  stroke: ghostwhite;
+  transform: rotate(70deg);
+}
+
+.third-circle {
+  stroke: #CDCDCD;
+}
+
+
+.rotate-variant-01 {
+
+  stroke-dasharray: 360 79;
+  transform: rotate(59.2deg);
+}
+
+.rotate-variant-02 {
+
+  stroke-dasharray: 370 89;
+  transform: rotate(55deg);
+}
+
+
+
+
+
+.rotate-variant-11 {
+  transform: rotate(74.2deg);
+  stroke-dasharray: 340 99;
+}
+
+.rotate-variant-12 {
+  transform: rotate(70deg);
+  stroke-dasharray: 350 89;
+}
+
+
+
+
+.rotate-variant-21 {
+  stroke-dasharray: 320 119;
+  transform: rotate(89.2deg);
+}
+
+.rotate-variant-22 {
+  stroke-dasharray: 330 109;
+  transform: rotate(85deg);
+}
+
+
+
+
+.rotate-variant-31 {
+  transform: rotate(74.2deg);
+  stroke-dasharray: 340 99;
+}
+
+.rotate-variant-32 {
+  transform: rotate(70deg);
+  stroke-dasharray: 350 89;
 }
 
 /*
+
+
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 200 to 700
 
 .oswald-<uniquifier> {
-           font-family: "Oswald", sans-serif;
-           font-optical-sizing: auto;
-           font-weight: <weight>;
-           font-style: normal;
-         }
+  font-family: "Oswald", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 
 
 .poppins-light {
