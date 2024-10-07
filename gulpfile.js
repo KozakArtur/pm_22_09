@@ -15,7 +15,7 @@ gulp.task('scss', function () {
     return gulp.src('./app/scss/*.scss')
         .pipe(sass().on('error', sass.logError)) // Компіляція SCSS в CSS
         .pipe(cssnano()) // Мінімізація CSS
-        .pipe(rename({ suffix: '.min' }))
+
         .pipe(gulp.dest('dist/css'))
         .pipe(browserSync.stream());
 });

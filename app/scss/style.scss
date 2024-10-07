@@ -1,38 +1,104 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap');
 @import "C:/Users/38068/pm_22_09/node_modules/bootstrap/scss/bootstrap";
-.block{
-  max-width: 100%;
+/*@media (min-width: 768px) {
+
+}*/
+@font-face {
+  font-family: 'Bebas Neue';
+  src:  url('../fonts/BebasNeueRegular.woff') format('woff'),url('../fonts/BebasNeueRegular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('../fonts/BebasNeueBold.woff2') format('woff2'), url('../fonts/BebasNeueBold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('../fonts/BebasNeueBook.woff2') format('woff2'), url('../fonts/BebasNeueBook.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+.HeadFont1{
+  font-family: Bebas Neue;
+  font-size:125px;
+  font-weight: 400;
+color:#22222E;
+  line-height: 0.8;
+  letter-spacing: 10px;
+}
+
+.HeadFont2{
+  font-family: Bebas Neue ;
+  font-size:125px;
+  font-weight: 700;
+  color:#22222E;
+  letter-spacing: 10px;
+  line-height: 0.8;
+  display: block;
+  padding-top: 30px;
+}
+
+
+.yellow-line {
+  margin-top: 35px;
+   width: 82px;
+   border-top: 4px solid #FFC905;
+   opacity: 1;
+
+ }
+
+.Header3{
+  font-family: Bebas Neue ;
+  font-size:20px;
+  font-weight: 300;
+  display: block;
+  padding-top: 20px;
 }
 
 
 .bg{
   background-color: #ebebeb;
   min-height: 100%;
-  padding: 40px;
+  padding: 20px ;
+  position: relative;
 }
+
+#last-block::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1vw;
+  background-color: #FFC905;
+}
+
 .YelBG{
   background-color: #FFC905;
   min-height: 100%;
-  padding-top: 5vw;
+  padding-top: 156px;
   padding-bottom: 2.5vw;
   display: flex;
   justify-content: center;
   align-items: center;
 
 }
-.Pic{
-  img {
-    min-width: 100%;
-    height: auto;
-    display: block;
-  }
+.Pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
-.Hobby{
-  padding-bottom: 5vw;
-}
+
 .Artic{
   font-family: "Oswald", system-ui;
-
+  font-weight: 480;
+  font-style: normal;
+  letter-spacing: 2px;
 }
 
 .Exp {
@@ -48,19 +114,15 @@
 }
 
 
-.yellow-line {
-  width: 60px;
-  border-top: 4px solid #FFC905;
-  opacity: 1;
-
-}
-
 .Text {
   font-family: "Poppins", sans-serif;
+  padding-top: 10px;
 }
+
 .Data{
   font-family: "Roboto", sans-serif;
 }
+
 .Bowl {
   background-color: #FFC905;
   color: ghostwhite;
@@ -70,11 +132,6 @@
   border-radius: 5px;
 
 }
-
-
-
-
-
 
 .text-black {
   color: #000000;
@@ -88,149 +145,119 @@
   color: #777777;
 }
 
-
-
 .circle {
   fill: none;
-  stroke-width: 18px;
+  stroke-width: 15px;
   stroke-linecap: round;
-  stroke-dashoffset: 0;
-  transform-origin: 100px 100px;
+  stroke-dasharray: 377;
+  stroke-dashoffset: 377;
+  transform-origin: 50% 50%;
 }
-
 
 .first-circle {
   stroke: #FFC905;
-  transform: rotate(74.2deg);
 }
 
 .second-circle {
   stroke: ghostwhite;
-  transform: rotate(70deg);
 }
 
 .third-circle {
   stroke: #CDCDCD;
+  stroke-dasharray: none;
+  stroke-dashoffset: 0;
 }
 
+.animated-circle {
+  animation: 3s linear forwards;
+  animation-delay: 2s;
+}
 
 .rotate-variant-01 {
-
-  stroke-dasharray: 360 79;
-  transform: rotate(59.2deg);
+  animation-name: anim-variant-01;
 }
 
 .rotate-variant-02 {
-
-  stroke-dasharray: 370 89;
-  transform: rotate(55deg);
+  animation-name: anim-variant-02;
 }
 
-
-
-
-
 .rotate-variant-11 {
-  transform: rotate(74.2deg);
-  stroke-dasharray: 340 99;
+  animation-name: anim-variant-11;
 }
 
 .rotate-variant-12 {
-  transform: rotate(70deg);
-  stroke-dasharray: 350 89;
+  animation-name: anim-variant-12;
 }
 
-
-
-
 .rotate-variant-21 {
-  stroke-dasharray: 320 119;
-  transform: rotate(89.2deg);
+  animation-name: anim-variant-21;
 }
 
 .rotate-variant-22 {
-  stroke-dasharray: 330 109;
-  transform: rotate(85deg);
+  animation-name: anim-variant-22;
 }
 
-
-
-
 .rotate-variant-31 {
-  transform: rotate(74.2deg);
-  stroke-dasharray: 340 99;
+  animation-name: anim-variant-31;
 }
 
 .rotate-variant-32 {
-  transform: rotate(70deg);
-  stroke-dasharray: 350 89;
-}
-
-/*
-
-
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 200 to 700
-
-.oswald-<uniquifier> {
-  font-family: "Oswald", system-ui;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+  animation-name: anim-variant-32;
 }
 
 
-.poppins-light {
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+@keyframes anim-variant-01 {
+  to {
+    stroke-dashoffset: 68.43;
+    transform: rotate(59.2deg);
+  }
 }
 
-.poppins-regular {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+@keyframes anim-variant-02 {
+  to {
+    stroke-dashoffset: 59.86;
+    transform: rotate(55deg);
+  }
 }
 
-.poppins-medium {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: normal;
+@keyframes anim-variant-11 {
+  to {
+    stroke-dashoffset: 85.57;
+    transform: rotate(74.2deg);
+  }
 }
 
-.poppins-semibold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: normal;
+@keyframes anim-variant-12 {
+  to {
+    stroke-dashoffset: 77;
+    transform: rotate(70deg);
+  }
 }
 
-.poppins-bold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+@keyframes anim-variant-21 {
+  to {
+    stroke-dashoffset: 102.71;
+    transform: rotate(89.2deg);
+  }
 }
 
-.roboto-regular {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+@keyframes anim-variant-22 {
+  to {
+    stroke-dashoffset: 94.14;
+    transform: rotate(85deg);
+  }
 }
 
-.roboto-medium {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-style: normal;
+@keyframes anim-variant-31 {
+  to {
+    stroke-dashoffset: 85.57;
+    transform: rotate(74.2deg);
+  }
 }
 
-.roboto-bold {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+@keyframes anim-variant-32 {
+  to {
+    stroke-dashoffset: 77;
+    transform: rotate(70deg);
+  }
 }
-
-.roboto-black {
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-}
-*/
