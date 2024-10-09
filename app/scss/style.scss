@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap');
 @import "C:/Users/38068/pm_22_09/node_modules/bootstrap/scss/bootstrap";
+
 /*@media (min-width: 768px) {
 
 }*/
@@ -16,12 +18,7 @@
   font-weight: 700;
   font-style: normal;
 }
-@font-face {
-  font-family: 'Bebas Neue';
-  src: url('../fonts/BebasNeueBook.woff2') format('woff2'), url('../fonts/BebasNeueBook.woff') format('woff');
-  font-weight: 300;
-  font-style: normal;
-}
+
 
 .HeadFont1{
   font-family: Bebas Neue;
@@ -29,7 +26,7 @@
   font-weight: 400;
 color:#22222E;
   line-height: 0.8;
-  letter-spacing: 10px;
+  letter-spacing: 14px;
 }
 
 .HeadFont2{
@@ -37,7 +34,7 @@ color:#22222E;
   font-size:125px;
   font-weight: 700;
   color:#22222E;
-  letter-spacing: 10px;
+  letter-spacing: 14px;
   line-height: 0.8;
   display: block;
   padding-top: 30px;
@@ -54,13 +51,112 @@ color:#22222E;
 
 .Header3{
   font-family: Bebas Neue ;
-  font-size:20px;
+  font-size:43px;
   font-weight: 300;
+  color:#22222E;
   display: block;
-  padding-top: 20px;
+  padding-top: 10px;
+  letter-spacing: 14px;
 }
 
 
+
+.Artic{
+  font-family:  Bebas Neue;
+  font-weight: 700;
+  font-size:65px;
+  font-style: normal;
+  letter-spacing: 6px;
+  color:#22222E;
+}
+
+.Data{
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size:30px;
+  color:#22222E;
+  letter-spacing: 2px;
+}
+
+.Data2{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size:22px;
+  color:#22222E;
+  letter-spacing: 0;
+
+}
+
+.Data3{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size:30px;
+  color: #555555;
+  letter-spacing: 1px;
+}
+
+
+.Text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  padding-top: 30px;
+  letter-spacing: 3px;
+  line-height: 45px;
+  color: #444444;
+}
+
+.Open-Sans{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+
+.text-dark-gray {
+  color: #555555;
+
+}
+.text-light-gray {
+  color: #777777;
+  font-size:29px;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+
+.Bowl {
+  background-color: #FFC905;
+  color: ghostwhite;
+  font-size: 25px;
+  font-weight: 600;
+  width: 169px;
+  height: 41px;
+  padding:1px;
+  border-radius: 8px;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1px;
+
+
+
+}
+.text-bottom{
+  color: #555555;
+  font-size:35px;
+  font-weight: 600;
+  letter-spacing: 0;
+  padding-top: 39px;
+}
+.text-bottom2{
+  color: #555555;
+  font-size:35px;
+  font-weight: 600;
+  letter-spacing: 0;
+  padding-top: 83px;
+}
 .bg{
   background-color: #ebebeb;
   min-height: 100%;
@@ -74,7 +170,7 @@ color:#22222E;
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 1vw;
+  height: 30px;
   background-color: #FFC905;
 }
 
@@ -82,7 +178,7 @@ color:#22222E;
   background-color: #FFC905;
   min-height: 100%;
   padding-top: 156px;
-  padding-bottom: 2.5vw;
+  padding-bottom: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -94,63 +190,41 @@ color:#22222E;
   object-fit: contain;
 }
 
-.Artic{
-  font-family: "Oswald", system-ui;
-  font-weight: 480;
-  font-style: normal;
+.Icons {
+  width: 65px;
+  height: 65px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+.Hobbies{
+  font-size: 25px;
+  color: #22222d;
+  font-weight: 400;
+  font-family: "Poppins" , sans-serif;
+}
+
+
+
+.CCCircle{
+  font-size: 17px;
+  color: #22222d;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
   letter-spacing: 2px;
 }
 
-.Exp {
-  padding-top:40px;
-}
-
-.Icons {
-  font-size: 1.5rem;
-  border: 2px solid #333;
-  border-radius: 50%;
-  padding: 10px;
-
-}
 
 
-.Text {
-  font-family: "Poppins", sans-serif;
-  padding-top: 10px;
-}
 
-.Data{
-  font-family: "Roboto", sans-serif;
-}
-
-.Bowl {
-  background-color: #FFC905;
-  color: ghostwhite;
-  font-size: 14px;
-  font-weight: 600;
-  padding: 0 10px;
-  border-radius: 5px;
-
-}
-
-.text-black {
-  color: #000000;
-}
-
-.text-dark-gray {
-  color: #555555;
-}
-
-.text-light-gray {
-  color: #777777;
-}
 
 .circle {
   fill: none;
   stroke-width: 15px;
   stroke-linecap: round;
-  stroke-dasharray: 377;
-  stroke-dashoffset: 377;
+  stroke-dasharray: 471.24;
+  stroke-dashoffset: 471.24;
   transform-origin: 50% 50%;
 }
 
@@ -205,59 +279,61 @@ color:#22222E;
   animation-name: anim-variant-32;
 }
 
+/* Оновлені ключові кадри з пропорційними значеннями */
 
 @keyframes anim-variant-01 {
   to {
-    stroke-dashoffset: 68.43;
+    stroke-dashoffset: 85.54; /* Змінено з 68.43 */
     transform: rotate(59.2deg);
   }
 }
 
 @keyframes anim-variant-02 {
   to {
-    stroke-dashoffset: 59.86;
+    stroke-dashoffset: 74.83; /* Змінено з 59.86 */
     transform: rotate(55deg);
   }
 }
 
 @keyframes anim-variant-11 {
   to {
-    stroke-dashoffset: 85.57;
+    stroke-dashoffset: 106.97; /* Змінено з 85.57 */
     transform: rotate(74.2deg);
   }
 }
 
 @keyframes anim-variant-12 {
   to {
-    stroke-dashoffset: 77;
+    stroke-dashoffset: 96.25; /* Змінено з 77 */
     transform: rotate(70deg);
   }
 }
 
 @keyframes anim-variant-21 {
   to {
-    stroke-dashoffset: 102.71;
+    stroke-dashoffset: 128.39; /* Змінено з 102.71 */
     transform: rotate(89.2deg);
   }
 }
 
 @keyframes anim-variant-22 {
   to {
-    stroke-dashoffset: 94.14;
+    stroke-dashoffset: 117.68; /* Змінено з 94.14 */
     transform: rotate(85deg);
   }
 }
 
 @keyframes anim-variant-31 {
   to {
-    stroke-dashoffset: 85.57;
+    stroke-dashoffset: 106.97; /* Змінено з 85.57 */
     transform: rotate(74.2deg);
   }
 }
 
 @keyframes anim-variant-32 {
   to {
-    stroke-dashoffset: 77;
+    stroke-dashoffset: 96.25; /* Змінено з 77 */
     transform: rotate(70deg);
   }
 }
+
