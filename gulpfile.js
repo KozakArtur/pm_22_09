@@ -46,7 +46,7 @@ gulp.task('js', function () {
 // Таск для обробки зображень
 gulp.task('images', function () {
     return gulp.src('./app/images/**/*.{jpg,png,gif,svg}', { encoding: false })
-        .pipe(imagemin()) // Стиснення зображень
+        .pipe(imagemin())
         .pipe(gulp.dest('dist/images'))
 });
 

@@ -22,19 +22,19 @@
 
 .HeadFont1{
   font-family: Bebas Neue;
-  font-size:125px;
+  font-size:129.2px;
   font-weight: 400;
 color:#22222E;
   line-height: 0.8;
-  letter-spacing: 14px;
+  letter-spacing: 13px;
 }
 
 .HeadFont2{
   font-family: Bebas Neue ;
-  font-size:125px;
+  font-size:129.2px;
   font-weight: 700;
   color:#22222E;
-  letter-spacing: 14px;
+  letter-spacing: 13px;
   line-height: 0.8;
   display: block;
   padding-top: 30px;
@@ -42,20 +42,20 @@ color:#22222E;
 
 
 .yellow-line {
-  margin-top: 35px;
-   width: 82px;
-   border-top: 4px solid #FFC905;
+  margin-top: 29px;
+   width: 84px;
+   border-top: 5px solid #FFC905;
    opacity: 1;
 
  }
 
 .Header3{
   font-family: Bebas Neue ;
-  font-size:43px;
+  font-size:44px;
   font-weight: 300;
   color:#22222E;
   display: block;
-  padding-top: 10px;
+  padding-top: 11px;
   letter-spacing: 14px;
 }
 
@@ -66,44 +66,49 @@ color:#22222E;
   font-weight: 700;
   font-size:65px;
   font-style: normal;
-  letter-spacing: 6px;
+  letter-spacing: 6.3px;
   color:#22222E;
 }
 
 .Data{
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size:30px;
+  font-family: "Poppins", sans-serif;
   color:#22222E;
-  letter-spacing: 2px;
+  letter-spacing: 0;
+  font-size: 33px;
+  line-height: 50px;
+  font-weight: 600;
+
 }
 
 .Data2{
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size:22px;
+  font-size:22.5px;
   color:#22222E;
   letter-spacing: 0;
 
 }
 
 .Data3{
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size:30px;
+  font-size:29px;
   color: #555555;
-  letter-spacing: 1px;
+  letter-spacing: 0;
+  line-height: 45px;
 }
 
 
 .Text {
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-size: 25px;
-  padding-top: 30px;
-  letter-spacing: 3px;
+  font-weight: 300;
+  font-size: 26px;
+  padding-top: 29px;
+  padding-right: 10px;
+  letter-spacing: 2.5px;
   line-height: 45px;
-  color: #444444;
+  color:#22222d;
+
 }
 
 .Open-Sans{
@@ -127,18 +132,20 @@ color:#22222E;
 
 
 .Bowl {
+
   background-color: #FFC905;
-  color: ghostwhite;
+  color: #ffffff;
   font-size: 25px;
   font-weight: 600;
   width: 169px;
-  height: 41px;
+  height: 42px;
   padding:1px;
   border-radius: 8px;
   display: inline-block;
   align-items: center;
   text-align: center;
   letter-spacing: 1px;
+
 
 
 
@@ -203,137 +210,89 @@ color:#22222E;
   color: #22222d;
   font-weight: 400;
   font-family: "Poppins" , sans-serif;
+
 }
 
-
+.HobbyText{
+  padding-top: 15px;
+}
 
 .CCCircle{
   font-size: 17px;
   color: #22222d;
   font-weight: 400;
   font-family: "Poppins", sans-serif;
-  letter-spacing: 2px;
+
+}
+
+.AAA{
+  padding-top:198px;
+  padding-left: 58px;
 }
 
 
-
-
-
-.circle {
+.circle_test {
   fill: none;
   stroke-width: 15px;
   stroke-linecap: round;
-  stroke-dasharray: 471.24;
-  stroke-dashoffset: 471.24;
+  stroke-dasharray: 471.24; /* This will be set dynamically */
+  stroke-dashoffset: 471.24; /* This will be set dynamically */
   transform-origin: 50% 50%;
+  transition: stroke-dashoffset 0.35s, transform 0.35s; /* Smooth transitions */
 }
 
-.first-circle {
+.fir {
   stroke: #FFC905;
 }
 
-.second-circle {
+.sec {
   stroke: ghostwhite;
 }
 
-.third-circle {
+.third {
   stroke: #CDCDCD;
   stroke-dasharray: none;
   stroke-dashoffset: 0;
 }
 
+
+h2.Artic {
+  cursor: pointer;
+  /* Інші стилі вашого заголовка */
+}
+
+h2.Artic:hover {
+  color: #ec8629; /* Змінює колір тексту на синій при наведенні */
+}
+
+
+.collapsible-content {
+  overflow: hidden;
+  height: auto;
+  transition-property: height;
+  transition-timing-function: ease;
+}
+
+.collapsible-content.collapsed {
+  height: 0;
+}
+
+
+
 .animated-circle {
-  animation: 3s linear forwards;
+  animation: progress-animation 4s ease-out forwards;
   animation-delay: 2s;
 }
 
-.rotate-variant-01 {
-  animation-name: anim-variant-01;
-}
-
-.rotate-variant-02 {
-  animation-name: anim-variant-02;
-}
-
-.rotate-variant-11 {
-  animation-name: anim-variant-11;
-}
-
-.rotate-variant-12 {
-  animation-name: anim-variant-12;
-}
-
-.rotate-variant-21 {
-  animation-name: anim-variant-21;
-}
-
-.rotate-variant-22 {
-  animation-name: anim-variant-22;
-}
-
-.rotate-variant-31 {
-  animation-name: anim-variant-31;
-}
-
-.rotate-variant-32 {
-  animation-name: anim-variant-32;
-}
-
-/* Оновлені ключові кадри з пропорційними значеннями */
-
-@keyframes anim-variant-01 {
-  to {
-    stroke-dashoffset: 85.54; /* Змінено з 68.43 */
-    transform: rotate(59.2deg);
+@keyframes progress-animation {
+  from {
+    stroke-dashoffset: 471.24;
+    transform: rotate(0deg);
   }
-}
-
-@keyframes anim-variant-02 {
   to {
-    stroke-dashoffset: 74.83; /* Змінено з 59.86 */
-    transform: rotate(55deg);
-  }
-}
-
-@keyframes anim-variant-11 {
-  to {
-    stroke-dashoffset: 106.97; /* Змінено з 85.57 */
-    transform: rotate(74.2deg);
-  }
-}
-
-@keyframes anim-variant-12 {
-  to {
-    stroke-dashoffset: 96.25; /* Змінено з 77 */
-    transform: rotate(70deg);
-  }
-}
-
-@keyframes anim-variant-21 {
-  to {
-    stroke-dashoffset: 128.39; /* Змінено з 102.71 */
-    transform: rotate(89.2deg);
-  }
-}
-
-@keyframes anim-variant-22 {
-  to {
-    stroke-dashoffset: 117.68; /* Змінено з 94.14 */
-    transform: rotate(85deg);
-  }
-}
-
-@keyframes anim-variant-31 {
-  to {
-    stroke-dashoffset: 106.97; /* Змінено з 85.57 */
-    transform: rotate(74.2deg);
-  }
-}
-
-@keyframes anim-variant-32 {
-  to {
-    stroke-dashoffset: 96.25; /* Змінено з 77 */
-    transform: rotate(70deg);
+    /* Ці значення будуть динамічно встановлені через JavaScript */
+    stroke-dashoffset: var(--stroke-dashoffset);
+    transform: rotate(var(--rotation));
   }
 }
 
