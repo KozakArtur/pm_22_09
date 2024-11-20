@@ -131,6 +131,8 @@ color:#22222E;
 }
 
 
+
+
 .Bowl {
 
   background-color: #FFC905;
@@ -258,11 +260,11 @@ color:#22222E;
 
 h2.Artic {
   cursor: pointer;
-  /* Інші стилі вашого заголовка */
+
 }
 
 h2.Artic:hover {
-  color: #ec8629; /* Змінює колір тексту на синій при наведенні */
+  color: #ec8629;
 }
 
 
@@ -290,7 +292,7 @@ h2.Artic:hover {
     transform: rotate(0deg);
   }
   to {
-    /* Ці значення будуть динамічно встановлені через JavaScript */
+
     stroke-dashoffset: var(--stroke-dashoffset);
     transform: rotate(var(--rotation));
   }
