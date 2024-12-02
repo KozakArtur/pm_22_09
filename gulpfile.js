@@ -27,7 +27,7 @@ const paths = {
         dest: 'dist/images'
     },
     json: {
-        src: './app/Data/**/*.json',
+        src: './app/data/**/*.json',
         dest: 'dist/data'
     }
 };
@@ -92,8 +92,4 @@ gulp.task('serve', function () {
     gulp.watch(paths.json.src, gulp.series('json')); // При зміні JSON-файлів запускається таск 'json'
 });
 
-// Таск для побудови проекту (без запуску сервера)
-gulp.task('build', gulp.series('html', 'scss', 'js', 'images', 'json'));
-
-// Таск за замовчуванням: побудова проекту та запуск сервера
-gulp.task('default', gulp.series('build', 'serve'));
+gulp.task('default', gulp.series('json','html', 'scss', 'js', 'images', 'serve'));
